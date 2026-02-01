@@ -78,29 +78,26 @@ Windows Notes:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **📁 Project Structure**
 
-insurance_fraud_detection/
+     insurance_fraud_detection/
+     │
+     ├── src/
+     │   ├── fraud_detection_complete.py  # ML pipeline
+     │   └── flask_api.py                  # REST API
+     ├── data/
+     │   └── insurance_fraud_data.csv     # 15,000 claims
+     ├── models/
+     │   ├── xgboost_model.pkl
+     │   ├── scaler.pkl
+     │   ├── label_encoders.pkl
+     │   └── feature_names.json
+     ├── outputs/
+     │   ├── comprehensive_eda.png
+     │   ├── advanced_model_analysis.png
+     │   ├── feature_importance.csv
+     │   └── model_performance_metrics.csv
+     ├── requirements.txt
+     └── README.md
 
-│
-├── src/
-│   ├── fraud_detection_complete.py  # ML pipeline
-│   └── flask_api.py                  # REST API
-
-├── data/
-│   └── insurance_fraud_data.csv     # 15,000 claims
-├── models/
-
-│   ├── xgboost_model.pkl
-│   ├── scaler.pkl
-│   ├── label_encoders.pkl
-│   └── feature_names.json
-
-├── outputs/
-│   ├── comprehensive_eda.png
-│   ├── advanced_model_analysis.png
-│   ├── feature_importance.csv
-│   └── model_performance_metrics.csv
-├── requirements.txt
-└── README.md
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧪 Running the Analysis
 
