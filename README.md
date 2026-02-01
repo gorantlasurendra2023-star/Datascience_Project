@@ -55,15 +55,15 @@ Windows Notes:
 
 # Create virtual environment
 
-py -3.11 -m venv venv
+    py -3.11 -m venv venv
 
 # Allow script execution if blocked
 
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
 # Activate virtualenv
 
-.\venv\Scripts\Activate.ps1
+   .\venv\Scripts\Activate.ps1
 
 # Upgrade pip and install dependencies
 python -m pip install --upgrade pip setuptools wheel
