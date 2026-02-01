@@ -99,7 +99,7 @@ Windows Notes:
      └── README.md
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🧪 Running the Analysis
+**🧪 Running the Analysis**
 
 python src/fraud_detection_complete.py
 
@@ -122,22 +122,24 @@ Pipeline Actions:
 Expected runtime: 3–4 minutes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🌐 API Usage
+**🌐 API Usage**
 
 Start API Server
 
-python src/flask_api.py
+   python src/flask_api.py
 
-API endpoint: http://localhost:5000
-Health Check
-curl http://localhost:5000/health
+   API endpoint: http://localhost:5000
 
-Response:
-{
-  "status": "healthy",
-  "components": {
+**Health Check**
+
+   curl http://localhost:5000/health
+
+   Response:
+   {
+     "status": "healthy",
+    "components": {
     "model": "loaded",
-    "scaler": "loaded",
+     "scaler": "loaded",
     "encoders": "loaded"
   }
 }
