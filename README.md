@@ -1,5 +1,5 @@
 # 🛡️ Insurance Claim Fraud Detection Using Predictive Analytics
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 **📊 Project Overview**
 
@@ -243,7 +243,7 @@ Best Model: XGBoost Classifier
     colsample_bytree=0.8,
     scale_pos_weight=3,
     random_state=42
-)
+             )
 
 **Feature Engineering**
 
