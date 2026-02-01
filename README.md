@@ -1,7 +1,7 @@
 # Datascience_Project
 "Datascience_Project predicts insurance fraud using machine learning. It includes data analysis, model training, evaluation, and visualizations to identify potentially fraudulent claims, helping insurance companies reduce losses and automate decision-making."
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#**🛡️ Insurance Claim Fraud Detection Using Predictive Analytics**
+**🛡️ Insurance Claim Fraud Detection Using Predictive Analytics**
 
 📊 Project Overview
 
@@ -33,9 +33,9 @@ Net Business Benefit	$13.5M	💰
 ✅ High accuracy ensures most fraudulent claims are flagged
 
 ✅ Strong business impact with ROI over 108x
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Quick Start
+
 Prerequisites
 
 Python 3.8+
@@ -69,21 +69,24 @@ conda create -n fraud-env python=3.11 -y
 conda activate fraud-env
 conda install -y numpy matplotlib seaborn scikit-learn xgboost
 pip install -r requirements.txt
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📁 Project Structure
 insurance_fraud_detection/
+
 │
 ├── src/
 │   ├── fraud_detection_complete.py  # ML pipeline
 │   └── flask_api.py                  # REST API
+
 ├── data/
 │   └── insurance_fraud_data.csv     # 15,000 claims
 ├── models/
+
 │   ├── xgboost_model.pkl
 │   ├── scaler.pkl
 │   ├── label_encoders.pkl
 │   └── feature_names.json
+
 ├── outputs/
 │   ├── comprehensive_eda.png
 │   ├── advanced_model_analysis.png
@@ -91,29 +94,40 @@ insurance_fraud_detection/
 │   └── model_performance_metrics.csv
 ├── requirements.txt
 └── README.md
-
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧪 Running the Analysis
+
 python src/fraud_detection_complete.py
 
 Pipeline Actions:
+
 ✅ Generates 15,000 synthetic claims
+
 ✅ Performs EDA
+
 ✅ Engineers 40+ features
+
 ✅ Trains 7 ML models
+
 ✅ Evaluates & selects best model
+
 ✅ Creates visualizations & reports
+
 ✅ Saves models for deployment
 
 Expected runtime: 3–4 minutes
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🌐 API Usage
+
 Start API Server
+
 python src/flask_api.py
+
 API endpoint: http://localhost:5000
 Health Check
 curl http://localhost:5000/health
+
 Response:
 {
   "status": "healthy",
@@ -148,9 +162,10 @@ Batch Predictions
 curl -X POST http://localhost:5000/batch-predict \
 -H "Content-Type: application/json" \
 -d '{"claims":[{"claim_id":"CLM001","claim_amount":5000},{"claim_id":"CLM002","claim_amount":20000}]}'
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 💰 Business Impact
+
 | Category                              | Amount  | Description                    |
 | ------------------------------------- | ------- | ------------------------------ |
 | Savings (True Positives)              | +$14.9M | Fraud detected & prevented     |
@@ -160,7 +175,10 @@ curl -X POST http://localhost:5000/batch-predict \
 ROI: 108x (10,800%)
 
 Payback Period: <1 month
+
+
 Industry Comparison
+
 | Metric              | This System | Industry Average |
 | ------------------- | ----------- | ---------------- |
 | Detection Rate      | 92%         | 65–75%           |
@@ -168,7 +186,7 @@ Industry Comparison
 | Processing Time     | <1s         | 2–5 days         |
 | Net Benefit         | $13.5M      | $5–8M            |
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔍 Key Insights
 
 Theft Claims: Fraud rate 24%, avg $18,500 → Enhanced verification
@@ -179,6 +197,7 @@ Evidence Matters: No evidence → 250% higher fraud probability
 
 High Claim Amounts: >50% vehicle value → Automated flagging
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🤖 Model Details
 
@@ -195,6 +214,7 @@ XGBClassifier(
 
 
 Feature Engineering
+
 | Category          | Example Features                                          |
 | ----------------- | --------------------------------------------------------- |
 | Financial Ratios  | claim_to_vehicle_ratio, claim_to_premium_ratio            |
@@ -212,7 +232,7 @@ Balancing: SMOTETomek
 
 Train-test split: 80-20 stratified
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📈 Model Performance
 
 Confusion Matrix
@@ -230,7 +250,7 @@ Metrics
 | ROC-AUC   | 97%   | ███████████████████▌ |
 Cross-validation (5-Fold)
 Mean: 0.944 ± 0.004
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔄 Next Steps & Roadmap
 
@@ -270,7 +290,7 @@ Mobile app for adjusters
 
 Blockchain audit trail
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🐛 Troubleshooting
 | Issue               | Solution                                             |
 | ------------------- | ---------------------------------------------------- |
@@ -278,7 +298,7 @@ Blockchain audit trail
 | Model files missing | Run `fraud_detection_complete.py` first              |
 | Port 5000 in use    | Change port in `flask_api.py`                        |
 | Memory error        | Reduce dataset size in `fraud_detection_complete.py` |
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📞 Support & Contact
 Email: your.email@example.com
 
