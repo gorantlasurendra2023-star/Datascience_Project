@@ -1,6 +1,4 @@
 # 🛡️ Insurance Claim Fraud Detection Using Predictive Analytics
-
-
 **📊 Project Overview**
 
 This project implements an advanced Machine Learning system for detecting fraudulent insurance claims. Using XGBoost classifier, comprehensive feature engineering, and cost-benefit analysis, it helps insurance companies:
@@ -13,7 +11,7 @@ Automate the claims review process
 
 Generate insightful visualizations and reports
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🎯 Key Results**
 
 Metric	Score	Visual Representation
@@ -99,7 +97,7 @@ Windows Notes:
      ├── requirements.txt
      └── README.md
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🧪 Running the Analysis**
 
 python src/fraud_detection_complete.py
@@ -372,6 +370,7 @@ Clear structured tables
 
 Detailed explanations for each part of the pipeline
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
