@@ -291,41 +291,41 @@ Mean: 0.944 ± 0.004
 
 **🔄 Next Steps & Roadmap**
 
-Phase 1 (In Progress)
+**Phase 1 (In Progress)**
 
-Build ML pipeline
+    Build ML pipeline
 
-Create REST API
+    Create REST API
 
-Deploy to cloud (AWS/Azure/GCP)
+    Deploy to cloud (AWS/Azure/GCP)
 
-CI/CD setup
+    CI/CD setup
 
-Monitoring
+    Monitoring
 
-Phase 2 (Planned)
+**Phase 2 (Planned)**
 
-SHAP interpretability
+    SHAP interpretability
 
-Real-time streaming predictions
+    Real-time streaming predictions
 
-A/B testing
+    A/B testing
 
-Automated retraining
+    Automated retraining
 
-Multi-model ensemble
+    Multi-model ensemble
 
-Phase 3 (Future)
+**Phase 3 (Future)**
 
-Claims management integration
+   Claims management integration
 
-Email/SMS alerts
+   Email/SMS alerts
 
-Investigator dashboard
+   Investigator dashboard
 
-Mobile app for adjusters
+   Mobile app for adjusters
 
-Blockchain audit trail
+   Blockchain audit trail
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🐛 Troubleshooting**
