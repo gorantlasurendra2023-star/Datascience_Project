@@ -1,5 +1,6 @@
 # Datascience_Project
 "Datascience_Project predicts insurance fraud using machine learning. It includes data analysis, model training, evaluation, and visualizations to identify potentially fraudulent claims, helping insurance companies reduce losses and automate decision-making."
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🛡️ Insurance Claim Fraud Detection Using Predictive Analytics**
 
@@ -14,6 +15,7 @@ Reduce financial losses
 Automate the claims review process
 
 Generate insightful visualizations and reports
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🎯 Key Results**
 Metric	Score	Visual Representation
@@ -33,25 +35,26 @@ Net Business Benefit	$13.5M	💰
 ✅ High accuracy ensures most fraudulent claims are flagged
 
 ✅ Strong business impact with ROI over 108x
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🚀 Quick Start
+**🚀 Quick Start**
 
 Prerequisites
 
-Python 3.8+
+    Python 3.8+
 
-pip package manager
+    pip package manager
 
-Minimum 4GB RAM, ~500MB disk space
+    Minimum 4GB RAM, ~500MB disk space
 
 Windows Notes:
 
-Install Python 3.11 from python.org
- and check Add Python to PATH
+    Install Python 3.11 from python.org and check Add Python to PATH
 
-Disable App execution aliases if “Python not found” errors occur
+    Disable App execution aliases if “Python not found” errors occur
 
-Use virtual environment for isolation
+    Use virtual environment for isolation
+
 # Create virtual environment
 py -3.11 -m venv venv
 
@@ -69,6 +72,7 @@ conda create -n fraud-env python=3.11 -y
 conda activate fraud-env
 conda install -y numpy matplotlib seaborn scikit-learn xgboost
 pip install -r requirements.txt
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 📁 Project Structure
 insurance_fraud_detection/
