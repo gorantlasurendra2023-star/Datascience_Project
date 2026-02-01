@@ -1,4 +1,5 @@
 # 🛡️ Insurance Claim Fraud Detection Using Predictive Analytics
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **📊 Project Overview**
 
@@ -122,13 +123,32 @@ Pipeline Actions:
 Expected runtime: 3–4 minutes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Pipeline Actions:**
+
+✅ Generates 15,000 synthetic claims
+
+✅ Performs EDA
+
+✅ Engineers 40+ features
+
+✅ Trains 7 ML models
+
+✅ Evaluates & selects best model
+
+✅ Creates visualizations & reports
+
+✅ Saves models for deployment
+
+Expected runtime: 3–4 minutes
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🌐 API Usage**
 
-Start API Server
+ Start API Server
 
-   python src/flask_api.py
+    python src/flask_api.py
 
-   API endpoint: http://localhost:5000
+    API endpoint: http://localhost:5000
 
 **Health Check**
 
