@@ -154,40 +154,43 @@ Expected runtime: 3–4 minutes
 
     curl http://localhost:5000/health
 
-Response:
-   {
-     "status": "healthy",
-    "components": {
+**Response:**
+    {
+  "status": "healthy",
+  "components": {
     "model": "loaded",
-     "scaler": "loaded",
+    "scaler": "loaded",
     "encoders": "loaded"
   }
 }
 
-Single Prediction
-curl -X POST http://localhost:5000/predict \
--H "Content-Type: application/json" \
--d '{
-  "age":35,
-  "claim_amount":15000,
-  "policy_tenure_months":6,
-  "vehicle_value":25000
-}'
+**Single Prediction**
 
-Response Highlights:
-is_fraud: true
+    curl -X POST http://localhost:5000/predict \
+    -H "Content-Type: application/json" \
+    -d '{
+    "age":35,
+    "claim_amount":15000,
+    "policy_tenure_months":6,
+   "vehicle_value":25000
+  }'
 
-fraud_probability: 78.5%
+**Response Highlights:**
 
-risk_level: High
+    is_fraud: true
 
-Recommended action: INVESTIGATE
+    fraud_probability: 78.5%
 
+    risk_level: High
 
-Batch Predictions
-curl -X POST http://localhost:5000/batch-predict \
--H "Content-Type: application/json" \
--d '{"claims":[{"claim_id":"CLM001","claim_amount":5000},{"claim_id":"CLM002","claim_amount":20000}]}'
+    Recommended action: INVESTIGATE
+
+**Batch Predictions**
+
+     curl -X POST http://localhost:5000/batch-predict \
+     -H "Content-Type: application/json" \
+     -d '{"claims":[{"claim_id":"CLM001","claim_amount":5000},{"claim_id":"CLM002","claim_amount":20000}]}'
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 💰 Business Impact
