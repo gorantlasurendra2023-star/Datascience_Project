@@ -172,7 +172,7 @@ Expected runtime: 3–4 minutes
     "age":35,
     "claim_amount":15000,
     "policy_tenure_months":6,
-   "vehicle_value":25000
+    "vehicle_value":25000
   }'
 
 **Response Highlights:**
@@ -188,7 +188,9 @@ Expected runtime: 3–4 minutes
 **Batch Predictions**
 
      curl -X POST http://localhost:5000/batch-predict \
+     
      -H "Content-Type: application/json" \
+     
      -d '{"claims":[{"claim_id":"CLM001","claim_amount":5000},{"claim_id":"CLM002","claim_amount":20000}]}'
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
