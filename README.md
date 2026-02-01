@@ -63,7 +63,7 @@ Windows Notes:
 
 # Activate virtualenv
 
-   .\venv\Scripts\Activate.ps1
+    .\venv\Scripts\Activate.ps1
 
 # Upgrade pip and install dependencies
 python -m pip install --upgrade pip setuptools wheel
