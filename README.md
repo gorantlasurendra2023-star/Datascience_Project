@@ -16,6 +16,8 @@ Automate the claims review process
 
 Generate insightful visualizations and reports
 
+
+
 **🎯 Key Results**
 Metric	Score	Visual Representation
 
@@ -32,6 +34,7 @@ F1-Score	92%	██████████████████▌
 Net Business Benefit	$13.5M	💰
 
 ✅ High accuracy ensures most fraudulent claims are flagged
+
 ✅ Strong business impact with ROI over 108x
 
 
