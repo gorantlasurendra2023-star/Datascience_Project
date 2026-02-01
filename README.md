@@ -53,19 +53,19 @@ Windows Notes:
 
     Use virtual environment for isolation
 
-# Create virtual environment
+**Create virtual environment**
 
     py -3.11 -m venv venv
 
-# Allow script execution if blocked
+**Allow script execution if blocked**
 
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 
-# Activate virtualenv
+**Activate virtualenv**
 
     .\venv\Scripts\Activate.ps1
 
-# Upgrade pip and install dependencies
+**Upgrade pip and install dependencies**
 
     python -m pip install --upgrade pip setuptools wheel
     python -m pip install -r requirements.txt
