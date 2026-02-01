@@ -152,9 +152,9 @@ Expected runtime: 3–4 minutes
 
 **Health Check**
 
-   curl http://localhost:5000/health
+    curl http://localhost:5000/health
 
-   Response:
+Response:
    {
      "status": "healthy",
     "components": {
