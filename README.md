@@ -66,13 +66,14 @@ Windows Notes:
     .\venv\Scripts\Activate.ps1
 
 # Upgrade pip and install dependencies
-python -m pip install --upgrade pip setuptools wheel
-python -m pip install -r requirements.txt
-Conda alternative (recommended for heavy numeric packages):
-conda create -n fraud-env python=3.11 -y
-conda activate fraud-env
-conda install -y numpy matplotlib seaborn scikit-learn xgboost
-pip install -r requirements.txt
+
+    python -m pip install --upgrade pip setuptools wheel
+    python -m pip install -r requirements.txt
+    Conda alternative (recommended for heavy numeric packages):
+    conda create -n fraud-env python=3.11 -y
+    conda activate fraud-env
+    conda install -y numpy matplotlib seaborn scikit-learn xgboost
+    pip install -r requirements.txt
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **📁 Project Structure**
