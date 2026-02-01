@@ -195,7 +195,7 @@ Expected runtime: 3–4 minutes
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-💰 Business Impact
+**💰 Business Impact**
 
 | Category                              | Amount  | Description                    |
 | ------------------------------------- | ------- | ------------------------------ |
@@ -203,12 +203,13 @@ Expected runtime: 3–4 minutes
 | Investigation Costs (False Positives) | -$125K  | Legitimate claims investigated |
 | Missed Fraud (False Negatives)        | -$1.3M  | Fraudulent claims missed       |
 | **Net Benefit**                       | $13.5M  | Total business value           |
+
 ROI: 108x (10,800%)
 
 Payback Period: <1 month
 
 
-Industry Comparison
+**Industry Comparison**
 
 | Metric              | This System | Industry Average |
 | ------------------- | ----------- | ---------------- |
@@ -218,7 +219,7 @@ Industry Comparison
 | Net Benefit         | $13.5M      | $5–8M            |
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🔍 Key Insights
+**🔍 Key Insights**
 
 Theft Claims: Fraud rate 24%, avg $18,500 → Enhanced verification
 
@@ -230,9 +231,9 @@ High Claim Amounts: >50% vehicle value → Automated flagging
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🤖 Model Details
+**🤖 Model Details**
 
-Best Model: XGBoost Classifier
+  Best Model: XGBoost Classifier
 XGBClassifier(
     n_estimators=200,
     learning_rate=0.1,
@@ -244,7 +245,8 @@ XGBClassifier(
 )
 
 
-Feature Engineering
+
+**Feature Engineering**
 
 | Category          | Example Features                                          |
 | ----------------- | --------------------------------------------------------- |
@@ -254,7 +256,8 @@ Feature Engineering
 | Temporal Features | suspicious_timing, delayed_reporting, night_incident      |
 | Interactions      | high_claim_no_evidence, new_policy_frequent_claimer       |
 
-Preprocessing
+**Preprocessing**
+
 Encoding: LabelEncoder
 
 Scaling: RobustScaler
@@ -264,13 +267,13 @@ Balancing: SMOTETomek
 Train-test split: 80-20 stratified
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📈 Model Performance
 
-Confusion Matrix
-|              | Predicted Legit | Predicted Fraud |
-| ------------ | --------------- | --------------- |
-| Actual Legit | 2580            | 45              |
-| Actual Fraud | 24              | 351             |
+**📈 Model Performance**
+
+| Confusion Matrix | Predicted Legit | Predicted Fraud |
+| ------------     | --------------- | --------------- |
+| Actual Legit     | 2580            | 45              |
+| Actual Fraud     | 24              | 351             |
 Metrics
 | Metric    | Value | Bargraph             |
 | --------- | ----- | -------------------- |
@@ -279,11 +282,14 @@ Metrics
 | Recall    | 92%   | ██████████████████▌  |
 | F1-Score  | 92%   | ██████████████████▌  |
 | ROC-AUC   | 97%   | ███████████████████▌ |
+
 Cross-validation (5-Fold)
+
 Mean: 0.944 ± 0.004
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🔄 Next Steps & Roadmap
+**🔄 Next Steps & Roadmap**
 
 Phase 1 (In Progress)
 
@@ -322,33 +328,40 @@ Mobile app for adjusters
 Blockchain audit trail
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🐛 Troubleshooting
+**🐛 Troubleshooting**
+
 | Issue               | Solution                                             |
 | ------------------- | ---------------------------------------------------- |
 | ModuleNotFoundError | `pip install -r requirements.txt`                    |
 | Model files missing | Run `fraud_detection_complete.py` first              |
 | Port 5000 in use    | Change port in `flask_api.py`                        |
 | Memory error        | Reduce dataset size in `fraud_detection_complete.py` |
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📞 Support & Contact
-Email: your.email@example.com
+**📞 Support & Contact**
+
+Email:gorantlasurendra2023@gmail.com
 
 GitHub Issues: [Link]
 
 Documentation: README + video tutorials
 
-Contributing:
-Fork repository
+**Contributing:**
 
-Create feature branch
+1.Fork repository
 
-Make changes
+2.Create feature branch
 
-Submit pull request
+3.Make changes
 
-🙏 Acknowledgments
+4.Submit pull request
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**🙏 Acknowledgments**
+
 Scikit-learn, XGBoost, LightGBM, Imbalanced-learn, Matplotlib, Seaborn, Flask
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✅ This README is now ready for GitHub with:
 
 Bar graphs for metrics
