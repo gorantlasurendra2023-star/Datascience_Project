@@ -72,7 +72,8 @@ conda install -y numpy matplotlib seaborn scikit-learn xgboost
 pip install -r requirements.txt
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-📁 Project Structure
+**📁 Project Structure**
+
 insurance_fraud_detection/
 
 │
