@@ -173,7 +173,7 @@ Expected runtime: 3–4 minutes
     "claim_amount":15000,
     "policy_tenure_months":6,
     "vehicle_value":25000
-  }'
+     }'
 
 **Response Highlights:**
 
@@ -317,15 +317,15 @@ Mean: 0.944 ± 0.004
 
 **Phase 3 (Future)**
 
-   Claims management integration
+     Claims management integration
 
-   Email/SMS alerts
+     Email/SMS alerts
 
-   Investigator dashboard
+     Investigator dashboard
 
-   Mobile app for adjusters
+     Mobile app for adjusters
 
-   Blockchain audit trail
+     Blockchain audit trail
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **🐛 Troubleshooting**
