@@ -16,8 +16,9 @@ Automate the claims review process
 
 Generate insightful visualizations and reports
 
-🎯 Key Results
+**🎯 Key Results**
 Metric	Score	Visual Representation
+
 Accuracy	94%	██████████████████▌
 
 ROC-AUC	97%	███████████████████▌
