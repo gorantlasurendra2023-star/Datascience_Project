@@ -233,8 +233,8 @@ High Claim Amounts: >50% vehicle value → Automated flagging
 
 **🤖 Model Details**
 
-  Best Model: XGBoost Classifier
-XGBClassifier(
+Best Model: XGBoost Classifier
+      XGBClassifier(
     n_estimators=200,
     learning_rate=0.1,
     max_depth=6,
@@ -244,9 +244,8 @@ XGBClassifier(
     random_state=42
 )
 
-
-
 **Feature Engineering**
+
 
 | Category          | Example Features                                          |
 | ----------------- | --------------------------------------------------------- |
